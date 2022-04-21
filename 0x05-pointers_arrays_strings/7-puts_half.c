@@ -1,45 +1,32 @@
-#include "holberton.h"
-
+#include <stdio.h>
+#include "main.h"
 /**
- * puts_half - print half of a string
- *
- * @str: string input pointer
- *
- * Return: nothing
-*/
-
+ *puts_half - update value.
+ *@str: value to be evaluate.
+ *Return: not.
+ */
 void puts_half(char *str)
 {
-	int i, c = 0, m;
+	int len = 0;
+	char *y = str;
+	int n;
 
-	/* find the length of array - null character*/
-	while (c >= 0)
+	while (*y != '\0')
 	{
-		if (str[c] == '\0')
-			break;
-		c++;
+		y++;
+		len++;
 	}
-
-	/*check if length is even or not*/
-	if (c % 2 == 0)
+	if (len % 2 == 0)
 	{
-		/**
-		 * if length is even,
-		 * i is half the length
-		*/
-		m = c / 2;
-		for (i = m; i < c; i++)
-			_putchar(str[i]);
+		n = len / 2;
 	}
 	else
 	{
-		/**
-		 * if length is odd,
-		 * i is half of length - 1
-		*/
-		m = (c - 1) / 2;
-		for (i = m + 1; i < c; i++)
-			_putchar(str[i]);
+		n = (len + 1) / 2;
+	}
+	for ( ; n < len ; n++)
+	{
+		_putchar(str[n]);
 	}
 	_putchar('\n');
 }

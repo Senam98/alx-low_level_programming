@@ -1,24 +1,29 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
-* puts2 - print character of a string
-* in an array starting from the first
-* character followed by the rest of the
-* even index array
-* @str: string input array pointer
-* Return: nothing
-*/
-
+ *puts2 - print pair values.
+ *@str: value to be evaluate.
+ *Return: not.
+ */
 void puts2(char *str)
 {
-int i;
-for (i = 0; str[i] >= 0; i++)
-{
-if (str[i] == '\0')
-break;
+	int len = 0;
+	int l = 0;
+	char *y = str;
+	int z;
 
-if (i % 2 == 0)
-_putchar(str[i]);
-}
-_putchar('\n');
+	while (*y != '\0')
+	{
+		y++;
+		len++;
+	}
+	l = len - 1;
+	for (z = 0 ; z <= l ; z++)
+	{
+		if (z % 2 == 0)
+		{
+			_putchar(str[z]);
+		}
+	}
+	_putchar('\n');
 }
