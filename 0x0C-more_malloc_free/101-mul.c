@@ -1,4 +1,7 @@
-#include <"main.h">
+#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+
 #include <stdio.h>
 
 /**
@@ -19,8 +22,7 @@ void _puts(char *str)
 
 
 /**
- * _atoi - convert a string to an integer.
- * @s: char type string
+ * _atoi - convert a string to an integer.         * @s: char type string
  * Return: integer converted
  */
 
