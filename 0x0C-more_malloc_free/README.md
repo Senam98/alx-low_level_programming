@@ -7,8 +7,6 @@ For this project, students are expected to look at this concept:
    - [Automatic and dynamic allocation, malloc and free](https://alx-intranet.hbtn.io/concepts/62)
 
 
-
-
 ## Resources
   Read or watch:
 
@@ -28,11 +26,11 @@ For this project, students are expected to look at this concept:
    - At the end of this project, you are expected to be able to [explain to anyone](https://alx-intranet.hbtn.io/rltoken/XQ_E28qyePVdJn1Irb_Dfg), without the help of Google:
 
 
+
 ## General
 
    - How to use the exit function
    - What are the functions calloc and realloc from the standard library and how to use them
-
 
 
 
@@ -56,9 +54,8 @@ For this project, students are expected to look at this concept:
 
 
 
-
-
 ## Tasks
+
 
 ### 0. Trust no one
 
@@ -110,7 +107,6 @@ julien@ubuntu:~/0x0b. more malloc, free$ echo $?
 98
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
-
 ```
 Repo:
 
@@ -119,15 +115,11 @@ Repo:
    - File: 0-malloc_checked.c
 
 ```
-
 ---
 
 
 
-
-
 ### 1. string_nconcat
-
 
 Write a function that concatenates two strings.
 
@@ -162,7 +154,6 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./1-string_nconcat
 Best School
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
-
 ```
 Repo:
 
@@ -171,10 +162,7 @@ Repo:
    - File: 1-string_nconcat.c
 
 `` 
-
 ---
-
-
 
 
 
@@ -255,9 +243,7 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./2-calloc
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x21
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
-
 ```
-
 Repo:
 
    - GitHub repository: alx-low_level_programming
@@ -265,11 +251,7 @@ Repo:
    - File: 2-calloc.c
 
 `` 
-
 ---
-
-
-
 
 
 
@@ -339,7 +321,6 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./3-array_range
 0x0a
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
-
 ```
 Repo:
 
@@ -348,16 +329,11 @@ Repo:
    - File: 3-array_range.c
 
 ```
-
 ---
 
 
 
-
-
-
 ### 4. _realloc
-
 
 Write a function that reallocates a memory block using malloc and free
 
@@ -443,8 +419,6 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./100-realloc
 0x62 0x62 0x62 0x62 0x62 0x62 0x62 0x62
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
-
-
 ```
 Repo:
 
@@ -453,18 +427,11 @@ Repo:
    - File: 100-realloc.c
 
 ```
- 
-
 ---
 
 
 
-
-
-
-
 ### 5. We must accept finite disappointment, but never lose infinite hope
-
 
 Write a program that multiplies two positive numbers.
 
@@ -484,7 +451,6 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./101-mul 23523469326943643622344652654
 6741363923575589187997046452422615907476091498993541335055687577080701989306920124712185512283638941702255216631601001307425878158314387046118270789357784940867204055508948216034308548261234814532268988302522598879945232929028116992753216059081057377926651337612618248332113256902485974371969385156015068813868274000683912187818601667058605418678284322237297213673482412392922068159291496274311170208689056585352782844484721140846367741649962638649229509281867896067208474178402156294978940712959518351846413859141792380853313812015295333546716634344284086426775480775747808150030732119704867805688704303461042373101473485092019906795014369069932
 julien@ubuntu:~/0x0b. more malloc, free$
 ```
-
 ```
 Repo:
 
@@ -493,10 +459,7 @@ Repo:
    - File: 101-mul.c
 
 ```
-
 ---
-
-
 
 
 
