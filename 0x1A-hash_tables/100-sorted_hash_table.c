@@ -1,6 +1,6 @@
 /*
  * File: 100-sorted_hash_table.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Gordon Enam Kudzo
  */
 
 #include "hash_tables.h"
